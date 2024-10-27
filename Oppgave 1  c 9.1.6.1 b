@@ -1,0 +1,3 @@
+strings = ["avisa", "blyant", "linjaler", "pc"]  # Example list of strings
+has_five_char_string = any(len(s) == 5 for s in strings)
+print(has_five_char_string)  # Output: True (because "avisa" has 5 characters)
